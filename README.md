@@ -1,12 +1,12 @@
 # Buyer-s-Agent-MERN-Website
 
-##Description
+## Description
 
-###Purpose
+### Purpose
 
 This MERN application is for a client wishing to have their own website as a buyer's agent. A website is crucial for any business to have as it increases outreach and interaction thus increasing potential investors.
 
-###Functionality
+### Functionality
 
 The website will have features that aim to both look appealing and have SEO(Search Engine Optimiziation) to get more views for the business.
 
@@ -28,7 +28,7 @@ The target audience for a Buyer's Agent are typically clients that are not local
 
 All investors however, are a potential asset and thus the website will not be heavily biased against locals or other locations for investors.
 
-###Tech Stack
+### Tech Stack
 
 Backend:
 
@@ -52,11 +52,11 @@ React - React is a framework maintained by Facebook that is used to build user i
 
 Azure Web Services 3 - Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. Source
 
-##Dataflow Diagram
+## Dataflow Diagram
 
-##Application Architecture Diagram
+## Application Architecture Diagram
 
-##User Stories
+## User Stories
 
 As a User, I can load to a homepage with critical pieces of information arranged in a visually pleasing way.
 
@@ -80,11 +80,11 @@ As a Buyer's Agent I can send automated mailings to Users.
 
 As an Admin I can edit and add to the "success stories" articles.
 
-##Wireframes
+## Wireframes
 
-##Project Management
+## Project Management
 
-###Task Log
+### Task Log
 
-###Timeline
+### Timeline
 
