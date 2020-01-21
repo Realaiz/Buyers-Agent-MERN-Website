@@ -103,7 +103,10 @@ As an Admin I can edit and add to the "success stories" articles.
 
 ![Project Board State 3](Project-Board-3.png)
 
+![Project Board State 4](Project-Board-4.png)
 
 ### Timeline
+
+To be completed after the app has been
 
 ----
