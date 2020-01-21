@@ -99,6 +99,8 @@ As an Admin I can edit and add to the "success stories" articles.
 ### Task Log
 ![Project Board State 1](Project-Board-1.png)
 
+![Project Board State 2](Project-Board-2.png)
+
 
 ### Timeline
 
