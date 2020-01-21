@@ -57,9 +57,13 @@ All investors however, are a potential asset and thus the website will not be he
 
 ## Dataflow Diagram
 
+![Dataflow Diagram]( DFD.png)
+
 ----
 
 ## Application Architecture Diagram
+
+![Application Architecture Diagram](AAD.jpg)
 
 ----
 
