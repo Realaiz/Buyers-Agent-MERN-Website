@@ -101,6 +101,8 @@ As an Admin I can edit and add to the "success stories" articles.
 
 ![Project Board State 2](Project-Board-2.png)
 
+![Project Board State 3](Project-Board-3.png)
+
 
 ### Timeline
 
