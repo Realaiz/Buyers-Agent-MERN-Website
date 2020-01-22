@@ -92,7 +92,7 @@ As an Admin I can edit and add to the "success stories" articles.
 
 
 ### Task Log
-![Project Board State 1](docs/images/Project-Board-1.png)
+![Project Board State 1](./docs/images/Project-Board-1.png)
 
 ![Project Board State 2](docs/images/Project-Board-2.png)
 
