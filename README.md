@@ -1,68 +1,107 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+### Purpose
 
-In the project directory, you can run:
+This MERN application is for a client wishing to have their own website as a buyer's agent. A website is crucial for any business to have as it increases outreach and interaction thus increasing potential investors.
 
-### `yarn start`
+### Functionality
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The website will have features that aim to both look appealing and have SEO(Search Engine Optimiziation) to get more views for the business.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+**Minimum Viable Product (MVP) Features:**
+* A home page with crucial information attaining to the business and its values
+* Easy navigation throughout the website.
+* A dashboard for individual investors containing submitted legal documents, their home purchasing prefrences, current investments.
+* Static HTML pages with information about the business' core values and outlines of their methodology of catering to investors
+* Success story articles pulled from medium using the API.
+* A contact form and application form.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Extensible Features:**
+* Method of tracking Returns on Investment(ROI) for each investor in their dashboard.
+* Automated mailing list with potential new investments.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Target Audience
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The target audience for a Buyer's Agent are typically clients that are not locals to the area where the Buyer's Agents are based in and are looking to invest internationally or interstate. This client in particular is looking at putting the most focus on investors from Melbourne & Sydney aswell as the Chinese market in particular.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+All investors however, are a potential asset and thus the website will not be heavily biased against locals or other locations for investors.
 
-### `yarn eject`
+### Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Backend:**
+* MongoDB - a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema. [Source](https://en.wikipedia.org/wiki/MongoDB)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Mongoose - Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. [Source](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Node.js - an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. [Source](https://en.wikipedia.org/wiki/Node.js)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Express.js - web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. [Source](https://en.wikipedia.org/wiki/Express.js)
 
-## Learn More
+* MongoDB Atlas - MongoDB Atlas is a fully-managed cloud database developed by the same people that build MongoDB. Atlas handles all the complexity of deploying, managing, and healing your deployments on the cloud service provider of your choice (AWS, Azure, and GCP). Follow the links below to get started. [Source](https://docs.atlas.mongodb.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Frontend:**
+* HTML - Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. [Source](https://en.wikipedia.org/wiki/HTML)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* CSS - Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. [Source](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Code Splitting
+* React - React is a framework maintained by Facebook that is used to build user interfaces with javascript.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* Azure Web Services 3 - Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. [Source](https://aws.amazon.com/ec2/)
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+----
 
-### Making a Progressive Web App
+## Dataflow Diagram
+![Dataflow Diagram](docs/images/DFD.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+----
 
-### Advanced Configuration
+## Application Architecture Diagram
+![Application Architecture Diagram](docs/images/AAD.jpg)
+----
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## User Stories
 
-### Deployment
+As a User, I can load to a homepage with critical pieces of information arranged in a visually pleasing way.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+As a User, I can click links in the navigation bar to go to different pages.
 
-### `yarn build` fails to minify
+As a User, I want to be able to use _TAB_ to cycle through options on pages.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+As a User, I can login to my own personalized dashboard.
+
+In the dashboard, as a User, I can edit/update personal information
+
+In the dashboard, as a User, I can upload documents.
+
+In the dashboard, as a User, I can view my investments.
+
+In the dashboard, as a User, I _may_ be able to view my estates' current values, thus my ROI.
+
+As a Buyer's Agent I can view my/a client(User)'s uploaded documents and personal details.
+
+As a Buyer's Agent I can send automated mailings to Users.
+
+As an Admin I can edit and add to the "success stories" articles.
+
+----
+
+## Project Management
+
+
+### Task Log
+![Project Board State 1](docs/images/Project-Board-1.png)
+
+![Project Board State 2](docs/images/Project-Board-2.png)
+
+![Project Board State 3](docs/images/Project-Board-3.png)
+
+![Project Board State 4](docs/images/Project-Board-4.png)
+
+### Timeline
+
+To be completed after the app has been
+
+----
