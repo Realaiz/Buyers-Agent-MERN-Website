@@ -1,0 +1,8 @@
+.Dashboard > div {
+  border: 1px solid black;
+}
+
+.Dashboard > div > span {
+  display: block;
+}
+/*# sourceMappingURL=Dashboard.css.map */

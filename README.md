@@ -50,6 +50,9 @@ All investors however, are a potential asset and thus the website will not be he
 
 * Azure Web Services 3 - Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. [Source](https://aws.amazon.com/ec2/)
 
+### Planning Methodology
+
+For this project I will implement Agile development methodology. I will be adding features in short sprints with deadlines and reviewing the code after. This will be tracked using github projects with the kanban planning format, with a User Stories list, an In progress list, a To Do list, and a completed tasks list.
 
 ----
 
@@ -87,6 +90,16 @@ As a Buyer's Agent I can send automated mailings to Users.
 As an Admin I can edit and add to the "success stories" articles.
 
 ----
+## Wire-frames
+![](./docs/images/Wireframe1.PNG)
+![](./docs/images/Wireframe2.PNG)
+![](./docs/images/Wireframe3.PNG)
+![](./docs/images/Wireframe4.PNG)
+![](./docs/images/Wireframe5.PNG)
+![](./docs/images/Wireframe6.PNG)
+![](./docs/images/Wireframe7.PNG)
+![](./docs/images/Wireframe8.PNG)
+![](./docs/images/Wireframe9.PNG)
 
 ## Project Management
 
@@ -104,4 +117,4 @@ As an Admin I can edit and add to the "success stories" articles.
 
 To be completed after the app has been
 
-----
+---- 
